@@ -1,0 +1,159 @@
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+    display: block;
+    width:760px;
+}
+
+.container {
+    display: inline-flex;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+h1 p {
+    margin: 50px auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px ;
+    color: black;
+}
+
+/* color section */
+
+.colorbox {
+    display:inline-block;
+    width: 800px;
+}
+
+.colorbox p {
+    color: white;
+}
+
+.blue {
+    background-color: #195973;
+    width: 70%;
+}
+
+.bluetwo {
+    background-color: #3BA7BF;
+    width: 70%;
+}
+
+.bluethree {
+    background-color: #053A40;
+    width: 70%;
+}
+
+.bluefour {
+    background-color:#63E4F2;
+    width: 70%;
+}
+
+.bluefive {
+    background-color:#66D9D9;
+    width: 70%;
+}
+
+/* font section */
+
+.fontbox {
+    display:inline-block;
+    width:auto;
+}
+
+p.Raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+p.Thin-100 {
+    font-family: 'Raleway', sans-serif;
+    font-weight:100;
+}
+
+p.Thin-100-italic {
+    font-family:'Raleway', sans-serif;
+    font-weight:100;
+    font-style: italic;
+}
+
+p.Extra-light-200 {
+    font-family: 'Raleway', sans-serif;
+    font-weight:200;
+}
+
+p.Open-Sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p.Light-300 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+p.Light-300-italic {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+p.Regular-400 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p.Merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+p.M-Light-300 {
+    font-family: 'Merriweather', serif;
+    font-weight: 300 lighter;
+}
+
+p.M-Light-300-italic {
+    font-family: 'Merriweather', serif;
+    font-weight: 300 lighter;
+    font-style: italic;
+}
+
+p.M-regular-400 {
+    font-family: 'Merriweather', serif;
+    font-weight:400;
+}
+
+.textbox {
+    display:inline-block;
+}
+
+.styles {
+    display: inline-block;
+}
+
+.textbox h1 {
+    font-weight: 700 bold;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.textbox h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Open Sans';
+}
+
+.textbox li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    list-style: none;
+}
+
+.textbox p {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 14px;
+}
